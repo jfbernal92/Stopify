@@ -6,8 +6,8 @@ require_once "lib/Clases/Stopify.php";
 
 // Fichero para procesar la petición de loggin a spotify y abrir la sesión con su token.
 
-const CLIENT_KEY = "772c11e4edb149afaf9ac73f9359576b";
-const CLIENT_SECRET ="8e6ed35d90a748cab3233f60b4323e28";
+const CLIENT_KEY = "THE API CLIENT KEY";
+const CLIENT_SECRET ="THE API SECRET KEY";
 
 $session = new SpotifyWebAPI\Session(
     CLIENT_KEY,
