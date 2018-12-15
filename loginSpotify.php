@@ -4,8 +4,8 @@
 require_once "vendor/autoload.php";
 require_once "lib/Clases/Sesion.php";
 
-const CLIENT_KEY = "772c11e4edb149afaf9ac73f9359576b";
-const CLIENT_SECRET ="8e6ed35d90a748cab3233f60b4323e28";
+const CLIENT_KEY = "THE API CLIENT KEY";
+const CLIENT_SECRET ="THE API CLIENT SECRET KEY";
 
 // Primer paso para logearse con Spotify.
 $session = new SpotifyWebAPI\Session(
